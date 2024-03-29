@@ -1,0 +1,51 @@
+{
+    "name": "Memory Game",
+    "short_name": "Memory Game",
+    "display": "standalone",
+    "start_url": "/",
+    "background_color": "#fdfdfd",
+    "theme_color": "#80bcbd",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "./src/assets/icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

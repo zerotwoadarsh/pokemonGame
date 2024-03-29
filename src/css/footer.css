@@ -1,0 +1,14 @@
+footer{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.155);
+    padding: 8px;
+}
+
+footer span{
+    -webkit-text-stroke: 1px yellow;
+}
+

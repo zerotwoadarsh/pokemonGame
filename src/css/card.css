@@ -1,0 +1,62 @@
+.card{
+    width: max-content;
+    height: max-content;
+    border-radius: 8px;
+    border: 3px solid white;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.447);
+    transition: transform 0.8s;
+    width:150px;
+    height: 190px;
+    overflow: hidden;
+    /* background: url("../assets/pokemon-background.jpg"); */
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.card:hover{
+    transform: skew(2deg,4deg);
+}
+
+.card.rotate{
+    transform: rotate3d(0,1,0,180deg);
+}
+
+.card-name{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.215);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(2px 2px 2px yellow);
+}
+
+.card-image-wrapper{
+    width: 150px;
+    height: 190px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-wrapper img{
+    transition: transform 0.9s;
+    /* max-width: 150px; */
+    max-height: 190px;
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        background-color: rgba(0, 0, 0, 0.162);
+    }
+    .card:hover{
+        transform: skew(0deg,0deg);
+    }
+}

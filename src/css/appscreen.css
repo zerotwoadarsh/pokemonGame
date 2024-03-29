@@ -1,0 +1,78 @@
+.app-screen {
+    height: 100%;
+    padding: 8px;
+    backdrop-filter: blur(30px);
+    border: 2px solid white;
+    text-align: center;
+    justify-self: center;
+    margin: 0 10px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcome {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.welcome > span {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+
+.welcome > span > span {
+    -webkit-text-stroke: 1px yellow;
+}
+
+.instruction {
+    color: transparent;
+    -webkit-text-stroke: 1px orangered;
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+
+.instruction + p{
+    box-shadow: 0px 2px yellow;
+}
+
+.start-btn {
+    max-width: max-content;
+    text-transform: capitalize;
+    border: 2px solid white;
+    padding: 4px 20px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.scale-animation{
+    animation: scale 0.9s infinite ease-in-out alternate;
+}
+
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.app-screen-image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+.app-screen-image-wrapper img{
+    width: 100%;
+}
